@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class main {
-    public static void main () throws IOException{
+    public static void main(String[] args) () throws IOException{
         String url = "http://localhost:8080/logowanie";
         URL obj = new URL(url);
         HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
