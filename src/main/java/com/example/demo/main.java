@@ -18,7 +18,11 @@ public class main {
                 new InputStreamReader(connection.getInputStream()));
         String inputline;
         StringBuffer odpowiedz = new StringBuffer();
-        while()
+        while((inputline=in.readLine())!=null){
+            odpowiedz.append(inputline);
+        }
+
+        odpowiedz.toString();
 
     }
 }
